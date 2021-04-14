@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #2a2b2a;
+    font-size: 1.2em;
+  }
+  
+  .entete {
+    background: center bottom url(https://images.unsplash.com/flagged/photo-1574999917270-904fd49b5f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2091&q=80);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+  }
+  
+  .entete_texte {
+    background: #0000004d;
+    font-family: 'Open Sans';
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+
+  .entete_titre {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+  }
+  
+  .entete_sous-titre {
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 0px;
+  }
+
+  .menu {
+    background-color:rgb(88, 88, 88);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    top:0;
+    left:10;
+    z-index:1;
+  }
+
+  .menu_titre{
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  a:visited{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .introduction {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #2a2b2a;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+  }  
+
+  h1 {
+    margin-top: 75px;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight:bold
+  }
+  
+
+  .courses {
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 12px;
+    display: flex;
+    justify-content:last baseline;
+    align-items: flex-start;
+  }
+
+  .courses__explication {
+    font-weight: lighter;
+    color: #00000075;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+
+  .exemples {
+    text-align: center;
+  }
+
+  .courses__illustration {
+    width: 200px;
+    border:1px solid rgb(88, 88, 88);
+  }
+
+
+  .actu1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .triathlon {
+    float: right;
+    margin: 100px;
+  }
+
+  .actu1soustitre {
+    font-weight: 400;
+    color: grey
+  }
+
+  .actu2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .triathlon2 {
+    float: left;
+    margin: 100px;
+  }
+
+  .actu2soustitre {
+    font-weight: 400;
+    color: grey
+  }
+
+  .divider {
+    margin: 2rem;
+  }
+
+  .page-footer {
+    padding:50px 0;
+    background-color:grey;
+  }
+
+  .footer1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page-footer h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+    color:orange;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .page-footer ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+    color:white;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .page-footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .page-footer ul a:hover {
+    opacity:1;
+  }
+
+  .page-footer .infos {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+    color: white;
+  }
+  
+@media (min-width: 480px) and (max-width: 780px)
+{
+  #Taille {float: none;}
+  #Exemple {float: none;}
+  #Menu {float: none;}
+  #Actualite {float: none;}
+}
+
+@media (max-width:767px) {
+  .page-footer {float: none;}
+  .page-header {float: none;}
+}
